@@ -1,7 +1,7 @@
 class Song
-  attr_accessor
+  attr_accessor :title
 
-  def initialize(argument)
-    @argument = argument
+  def initialize(title)
+    @title = title
   end
 end
